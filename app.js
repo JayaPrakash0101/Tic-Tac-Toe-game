@@ -29,6 +29,7 @@ boxes.forEach((box) => {
         }
         else {
             box.innerText = "O";
+            box.style.color = "#7469B6";
             turn = 0;
         }
         box.disabled = true;
